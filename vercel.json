@@ -8,8 +8,7 @@
     "server": {
       "root": "server",
       "runtime": "node",
-      "buildCommand": "npm run build",
-      "entrypoint": "dist/server.js"
+      "entrypoint": "src/server.ts"
     }
   },
   "rewrites": [
